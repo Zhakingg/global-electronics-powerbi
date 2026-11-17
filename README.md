@@ -502,10 +502,9 @@ Four report pages, one for each area of the business questions. Every page share
 
 **Design decisions**
 - **Titles state findings, not labels.** For example, "Revenue peaked in 2019 and roughly halved in 2020" instead of "Revenue by Year".
-- **Honest axes.** The margin line uses a moderate axis range with data labels, so a 0.7-point change is neither hidden (0–100%) nor exaggerated (58.5–59%).
-- **Linear lines, not smoothed curves**, so no highs or lows are invented between data points.
+- **Honest axes.** The margin line uses a moderate axis range (56–62%), so a 0.7-point change is neither hidden (0–100%) nor exaggerated (58.5–59%).
 - **Edited interactions.** Clicking the order-frequency chart no longer filters the *Repeat Customer %* and *Orders per Customer* cards, because filtering by order count would make those metrics trivially 0% or 100%.
-- **Custom dark theme** (JSON theme file + designed canvas backgrounds) for a consistent, modern look.
+- **Custom "Neon Command Center" dark theme**: a JSON theme file plus designed 1920×1080 canvas backgrounds with panels sized to the report grid (files in `design/`).
 
 | | |
 |---|---|
